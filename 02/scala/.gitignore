@@ -1,0 +1,5 @@
+*.pdf
+*.mp4
+.idea
+*.xml
+target/
