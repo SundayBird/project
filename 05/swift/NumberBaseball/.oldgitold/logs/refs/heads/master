@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 6a6ff04a762133440bd5e568c518a88ec4d2a996 Wonyoung Ju <getogrand@gmail.com> 1547264915 +0900	commit (initial): Initialze repository
+6a6ff04a762133440bd5e568c518a88ec4d2a996 af1055b57aa50006d060dd662dfd3bd4d88db6ca Wonyoung Ju <getogrand@gmail.com> 1547264963 +0900	commit: Add test target
+af1055b57aa50006d060dd662dfd3bd4d88db6ca 65e7cae2ce18fb6804555f2185eed4f411c03278 Wonyoung Ju <getogrand@gmail.com> 1547366656 +0900	commit: Setup scheme
+65e7cae2ce18fb6804555f2185eed4f411c03278 4060a9fe07a1159be3ffc180ec5e9ac15ab8afc7 Wonyoung Ju <getogrand@gmail.com> 1547366698 +0900	commit: Add failing test
+4060a9fe07a1159be3ffc180ec5e9ac15ab8afc7 c18986d91280c7a383a3b6d631b9e064ca9fa704 Wonyoung Ju <getogrand@gmail.com> 1547381293 +0900	commit: Make the test passes
+c18986d91280c7a383a3b6d631b9e064ca9fa704 5decc84c1f9c7357adad707c0ed2ecb7e7d19471 Wonyoung Ju <getogrand@gmail.com> 1547476170 +0900	commit: Make it sense
+5decc84c1f9c7357adad707c0ed2ecb7e7d19471 8118a276ccdc593ebd901b23f556ee0c9f781967 Wonyoung Ju <getogrand@gmail.com> 1547476219 +0900	commit: Refactor
