@@ -6,7 +6,7 @@ def answer(answers):
 
 
 def split_numbers(answer_str):
-    return answer_str.split()
+    return list(map(lambda x: int(x), answer_str.split()))
 
 
 def test1():
