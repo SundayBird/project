@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		DFC727BA21FC681F0095B5DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727B921FC681F0095B5DF /* main.swift */; };
 		DFC727C721FC6A0E0095B5DF /* TDDNumberBaseballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727C621FC6A0E0095B5DF /* TDDNumberBaseballTests.swift */; };
+		DFC727CD21FC6D770095B5DF /* Possibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727CC21FC6D770095B5DF /* Possibility.swift */; };
+		DFC727CF21FC6D940095B5DF /* Judgement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727CE21FC6D940095B5DF /* Judgement.swift */; };
+		DFC727D021FC6DB00095B5DF /* Possibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727CC21FC6D770095B5DF /* Possibility.swift */; };
+		DFC727D121FC6DB00095B5DF /* Judgement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727CE21FC6D940095B5DF /* Judgement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +33,8 @@
 		DFC727C421FC6A0E0095B5DF /* TDDNumberBaseballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDNumberBaseballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC727C621FC6A0E0095B5DF /* TDDNumberBaseballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDNumberBaseballTests.swift; sourceTree = "<group>"; };
 		DFC727C821FC6A0E0095B5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC727CC21FC6D770095B5DF /* Possibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Possibility.swift; sourceTree = "<group>"; };
+		DFC727CE21FC6D940095B5DF /* Judgement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Judgement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				DFC727B921FC681F0095B5DF /* main.swift */,
+				DFC727CC21FC6D770095B5DF /* Possibility.swift */,
+				DFC727CE21FC6D940095B5DF /* Judgement.swift */,
 			);
 			path = TDDNumberBaseball;
 			sourceTree = "<group>";
@@ -172,7 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC727CF21FC6D940095B5DF /* Judgement.swift in Sources */,
 				DFC727BA21FC681F0095B5DF /* main.swift in Sources */,
+				DFC727CD21FC6D770095B5DF /* Possibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +190,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC727D121FC6DB00095B5DF /* Judgement.swift in Sources */,
 				DFC727C721FC6A0E0095B5DF /* TDDNumberBaseballTests.swift in Sources */,
+				DFC727D021FC6DB00095B5DF /* Possibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import NumberBaseball
+@testable import TDDNumberBaseball
 
 class TDDNumberBaseballTests: XCTestCase {
 
