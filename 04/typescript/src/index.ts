@@ -1,14 +1,18 @@
 import assert from 'assert';
 
 const verifyGuess = (guess: string, actual: string) => {
+  let ball = 0;
   const strike = Array.from(guess).reduce((acc, curr, idx) => {
     if (curr === actual[idx]) {
       return acc + 1;
     } else {
+      if (actual.includes(curr)) {
+        ball++;
+      }
       return acc;
     }
   }, 0);
-  const ball = 0;
+  
   return {
     strike,
     ball,
