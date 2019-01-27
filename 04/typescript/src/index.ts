@@ -28,3 +28,5 @@ assert.deepEqual(verifyGuess("123", "139"), {
   strike: 1,
   ball: 1,
 });
+
+assert.ifError(verifyGuess("999", "999"));
