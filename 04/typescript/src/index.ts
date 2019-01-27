@@ -20,7 +20,7 @@ assert.deepEqual(verifyGuess("123", "123"), {
   ball: 0,
 });
 
-assert.deepEqual(verifyGuess("127", "123"), {
-  strike: 2,
+assert.deepEqual(verifyGuess("123", "139"), {
+  strike: 1,
   ball: 1,
 });
