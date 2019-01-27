@@ -18,4 +18,9 @@ const verifyGuess = (guess: string, actual: string) => {
 assert.deepEqual(verifyGuess("123", "123"), {
   strike: 3,
   ball: 0,
-})
+});
+
+assert.deepEqual(verifyGuess("127", "123"), {
+  strike: 2,
+  ball: 1,
+});
