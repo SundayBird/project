@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFC727BA21FC681F0095B5DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727B921FC681F0095B5DF /* main.swift */; };
+		DFC727C721FC6A0E0095B5DF /* TDDNumberBaseballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727C621FC6A0E0095B5DF /* TDDNumberBaseballTests.swift */; };
+		DFC727CD21FC6D770095B5DF /* Possibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727CC21FC6D770095B5DF /* Possibility.swift */; };
+		DFC727CF21FC6D940095B5DF /* Judgement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727CE21FC6D940095B5DF /* Judgement.swift */; };
+		DFC727D021FC6DB00095B5DF /* Possibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727CC21FC6D770095B5DF /* Possibility.swift */; };
+		DFC727D121FC6DB00095B5DF /* Judgement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC727CE21FC6D940095B5DF /* Judgement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFC727B421FC681F0095B5DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFC727B621FC681F0095B5DF /* TDDNumberBaseball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TDDNumberBaseball; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC727B921FC681F0095B5DF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DFC727C421FC6A0E0095B5DF /* TDDNumberBaseballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDNumberBaseballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC727C621FC6A0E0095B5DF /* TDDNumberBaseballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDNumberBaseballTests.swift; sourceTree = "<group>"; };
+		DFC727C821FC6A0E0095B5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC727CC21FC6D770095B5DF /* Possibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Possibility.swift; sourceTree = "<group>"; };
+		DFC727CE21FC6D940095B5DF /* Judgement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Judgement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFC727B321FC681F0095B5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC727C121FC6A0E0095B5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFC727AD21FC681F0095B5DF = {
+			isa = PBXGroup;
+			children = (
+				DFC727B821FC681F0095B5DF /* TDDNumberBaseball */,
+				DFC727C521FC6A0E0095B5DF /* TDDNumberBaseballTests */,
+				DFC727B721FC681F0095B5DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFC727B721FC681F0095B5DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFC727B621FC681F0095B5DF /* TDDNumberBaseball */,
+				DFC727C421FC6A0E0095B5DF /* TDDNumberBaseballTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFC727B821FC681F0095B5DF /* TDDNumberBaseball */ = {
+			isa = PBXGroup;
+			children = (
+				DFC727B921FC681F0095B5DF /* main.swift */,
+				DFC727CC21FC6D770095B5DF /* Possibility.swift */,
+				DFC727CE21FC6D940095B5DF /* Judgement.swift */,
+			);
+			path = TDDNumberBaseball;
+			sourceTree = "<group>";
+		};
+		DFC727C521FC6A0E0095B5DF /* TDDNumberBaseballTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFC727C621FC6A0E0095B5DF /* TDDNumberBaseballTests.swift */,
+				DFC727C821FC6A0E0095B5DF /* Info.plist */,
+			);
+			path = TDDNumberBaseballTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFC727B521FC681F0095B5DF /* TDDNumberBaseball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC727BD21FC681F0095B5DF /* Build configuration list for PBXNativeTarget "TDDNumberBaseball" */;
+			buildPhases = (
+				DFC727B221FC681F0095B5DF /* Sources */,
+				DFC727B321FC681F0095B5DF /* Frameworks */,
+				DFC727B421FC681F0095B5DF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDNumberBaseball;
+			productName = TDDNumberBaseball;
+			productReference = DFC727B621FC681F0095B5DF /* TDDNumberBaseball */;
+			productType = "com.apple.product-type.tool";
+		};
+		DFC727C321FC6A0E0095B5DF /* TDDNumberBaseballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC727C921FC6A0E0095B5DF /* Build configuration list for PBXNativeTarget "TDDNumberBaseballTests" */;
+			buildPhases = (
+				DFC727C021FC6A0E0095B5DF /* Sources */,
+				DFC727C121FC6A0E0095B5DF /* Frameworks */,
+				DFC727C221FC6A0E0095B5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDNumberBaseballTests;
+			productName = TDDNumberBaseballTests;
+			productReference = DFC727C421FC6A0E0095B5DF /* TDDNumberBaseballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFC727AE21FC681F0095B5DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = getogrand;
+				TargetAttributes = {
+					DFC727B521FC681F0095B5DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DFC727C321FC6A0E0095B5DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DFC727B121FC681F0095B5DF /* Build configuration list for PBXProject "TDDNumberBaseball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFC727AD21FC681F0095B5DF;
+			productRefGroup = DFC727B721FC681F0095B5DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFC727B521FC681F0095B5DF /* TDDNumberBaseball */,
+				DFC727C321FC6A0E0095B5DF /* TDDNumberBaseballTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFC727C221FC6A0E0095B5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFC727B221FC681F0095B5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC727CF21FC6D940095B5DF /* Judgement.swift in Sources */,
+				DFC727BA21FC681F0095B5DF /* main.swift in Sources */,
+				DFC727CD21FC6D770095B5DF /* Possibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC727C021FC6A0E0095B5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC727D121FC6DB00095B5DF /* Judgement.swift in Sources */,
+				DFC727C721FC6A0E0095B5DF /* TDDNumberBaseballTests.swift in Sources */,
+				DFC727D021FC6DB00095B5DF /* Possibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFC727BB21FC681F0095B5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFC727BC21FC681F0095B5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DFC727BE21FC681F0095B5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		DFC727BF21FC681F0095B5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		DFC727CA21FC6A0E0095B5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TDDNumberBaseballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getogrand.TDDNumberBaseballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		DFC727CB21FC6A0E0095B5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TDDNumberBaseballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getogrand.TDDNumberBaseballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFC727B121FC681F0095B5DF /* Build configuration list for PBXProject "TDDNumberBaseball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC727BB21FC681F0095B5DF /* Debug */,
+				DFC727BC21FC681F0095B5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC727BD21FC681F0095B5DF /* Build configuration list for PBXNativeTarget "TDDNumberBaseball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC727BE21FC681F0095B5DF /* Debug */,
+				DFC727BF21FC681F0095B5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC727C921FC6A0E0095B5DF /* Build configuration list for PBXNativeTarget "TDDNumberBaseballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC727CA21FC6A0E0095B5DF /* Debug */,
+				DFC727CB21FC6A0E0095B5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFC727AE21FC681F0095B5DF /* Project object */;
+}
